@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".New"
+    android:background="@color/purplish"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tap the below button to mark the attendance."
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:layout_marginTop="280dp"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/aqua"
+        android:text="Next"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"
+        />
+
+
+</LinearLayout>

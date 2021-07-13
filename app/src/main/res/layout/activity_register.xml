@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context="com.example.project.Register"
+    android:background="@color/purplish"
+    >
+
+
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/rounded_border"
+        android:ems="10"
+        android:hint=" First Name"
+        android:inputType="text"
+        android:textColorHint="#FFFFFF"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+
+        />
+
+
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_border"
+        android:ems="10"
+        android:hint=" Last Name"
+        android:inputType="text"
+        android:textColorHint="#FFFFFF"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        />
+
+
+    <EditText
+        android:id="@+id/e3"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_border"
+        android:ems="10"
+        android:hint=" Enroll No. (Username)"
+        android:inputType="text"
+        android:textColorHint="#FFFFFF"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        />
+
+
+    <EditText
+        android:id="@+id/e4"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_border"
+        android:ems="10"
+        android:hint=" Email"
+        android:inputType="text"
+        android:textColorHint="#FFFFFF"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        />
+
+
+
+
+
+    <EditText
+        android:id="@+id/e7"
+        android:layout_width="350dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_border"
+        android:ems="10"
+        android:hint=" Enter Dept (Eg - CO , IT)"
+        android:inputType="textPersonName"
+        android:textColorHint="#FFFFFF"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="65dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        />
+
+
+    <Spinner
+        android:id="@+id/Year"
+        android:layout_width="350dp"
+        android:layout_height="28dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_border"
+        android:textAlignment="center"
+        android:backgroundTint="@color/aqua"
+        />
+
+
+
+    <Spinner
+        android:id="@+id/Shift"
+        android:layout_width="350dp"
+        android:layout_height="28dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_border"
+        android:backgroundTint="@color/aqua"
+        android:textAlignment="center"
+        />
+
+
+
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Gender :"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            />
+
+        <RadioButton
+            android:id="@+id/r1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textSize="25sp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"
+            />
+
+        <RadioButton
+            android:id="@+id/r2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Female"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="REGISTER"
+        android:textSize="25dp"
+        android:padding="5dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/aqua"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+
+        />
+
+
+</LinearLayout>
+

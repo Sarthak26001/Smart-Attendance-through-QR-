@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    tools:context="com.example.project.ADreg"
+    android:background="@color/purplish"
+    >
+
+    <TextView
+        android:id="@+id/text_exam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="STUDENT REGISTRATION"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_below="@id/text_exam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="⦿ Enter the Department name."
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="103dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView"
+        />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:padding="5dp"
+        android:text="⦿ Then select Year."
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:padding="5dp"
+        android:text="⦿ Then select Shift."
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/e1"
+        android:layout_below="@+id/textView3"
+        android:layout_width="300dp"
+        android:layout_height="52dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="79dp"
+        android:background="@drawable/rounded_border"
+        android:ems="10"
+        android:hint=" Enter Dept (Eg - CO , IT)"
+        android:inputType="textPersonName"
+        android:textColorHint="#FFFFFF"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="65dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        />
+
+
+    <Spinner
+        android:id="@+id/Year"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/e1"
+        android:layout_width="300dp"
+        android:layout_height="28dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_border"
+        android:textAlignment="center"
+        android:backgroundTint="@color/aqua"
+        />
+
+
+
+    <Spinner
+        android:id="@+id/Shift"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Year"
+        android:layout_width="300dp"
+        android:layout_height="28dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_border"
+        android:backgroundTint="@color/aqua"
+        android:textAlignment="center"
+        />
+
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/Shift"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:backgroundTint="@color/aqua"
+        android:padding="5dp"
+        android:text="NEXT"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+
+        />
+
+</RelativeLayout>

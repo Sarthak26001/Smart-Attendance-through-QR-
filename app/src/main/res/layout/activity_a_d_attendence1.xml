@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ADAttendence1"
+    android:background="@color/purplish">
+
+    <TextView
+        android:id="@+id/text_exam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="Attendance"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal" />
+
+
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="350dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_border"
+        android:ems="10"
+        android:hint=" Enter Dept (Eg - CO , IT)"
+        android:inputType="textPersonName"
+        android:textColorHint="#FFFFFF"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="65dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Select Your Year:"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="30dp"
+        />
+
+    <Spinner
+        android:id="@+id/Year"
+        android:layout_width="350dp"
+        android:layout_height="28dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_border"
+        android:textAlignment="center"
+        android:backgroundTint="@color/aqua"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Select Your Shift:"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="30dp"
+        />
+
+    <Spinner
+        android:id="@+id/Shift"
+        android:layout_width="350dp"
+        android:layout_height="28dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_border"
+        android:backgroundTint="@color/aqua"
+       android:textAlignment="center"
+         />
+
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="350dp"
+        android:layout_height="49dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_border"
+        android:ems="10"
+        android:hint=" Subject"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="354dp"
+        android:textAlignment="center"
+        />
+
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="350dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Tap for Date"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_marginTop="50dp"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="593dp"
+        android:backgroundTint="@color/aqua"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Check Attendence"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="593dp"
+        android:backgroundTint="@color/aqua"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        />
+
+
+</LinearLayout>

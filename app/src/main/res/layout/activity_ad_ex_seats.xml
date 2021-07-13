@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ad_ex_seats"
+    android:background="@color/purplish">
+
+    <TextView
+        android:id="@+id/text_exam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="Seat Arrangement"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:padding="5dp"
+        android:text="⦿ Enter the class number as you want to enter to allot the student."
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:text="⦿ Specify the student enrollment number From - To."
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:text="⦿ One class have upto 30 Student."
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="341dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rounded_border"
+        android:ems="10"
+        android:hint=" Class No."
+        android:inputType="textPersonName"
+        android:textColorHint="@color/white"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="31dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        />
+
+    <EditText
+
+        android:id="@+id/e2"
+        android:layout_width="339dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint=" From-To(eg - FS17CO001-FS17CO030)"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="85dp"
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/rounded_border"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switchcompat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Status : "
+        android:textColor="@color/white"
+        android:textOff="Off"
+        android:textOn="On"
+        android:textSize="30dp"
+        android:thumb="@drawable/thumb"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.531"
+        app:showText="true"
+        app:track="@drawable/track"
+        android:layout_marginTop="30dp"
+        />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginTop="30dp"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="181dp"
+        tools:ignore="MissingConstraints"
+        android:backgroundTint="@color/aqua"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>
