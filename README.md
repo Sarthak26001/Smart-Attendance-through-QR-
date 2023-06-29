@@ -1,1 +1,2 @@
 # Learning-management-system-LMS-
+A Learning Management System (LMS) is a software application for managing educational courses and training programs. It allows administrators and teachers to register, upload notes, enable feedback forms, generate QR codes for attendance, add mock test questions, and arrange exam seating. Students can register, access notes, fill feedback forms, mark attendance, attempt mock tests, and view their exam seat numbers. As online training gains popularity, the eLearning market continues to grow.
