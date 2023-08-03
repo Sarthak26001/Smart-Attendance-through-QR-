@@ -1,2 +1,2 @@
-# Learning-management-system-LMS-
-A Learning Management System (LMS) is a software application for managing educational courses and training programs. It allows administrators and teachers to register, upload notes, enable feedback forms, generate QR codes for attendance, add mock test questions, and arrange exam seating. Students can register, access notes, fill feedback forms, mark attendance, attempt mock tests, and view their exam seat numbers. As online training gains popularity, the eLearning market continues to grow.
+# Smart Attendance through QR
+It is a Android-app has been developed to lessen the workload for teachers and students. Here, the app is for teachers to generate QR and for students that allows them to mark their attendance by scanning a QR code. App includes one device factor, timer and location based approach for verification while marking attendance. The teacher can download excel sheet of attendance along with student attendance percentage.
